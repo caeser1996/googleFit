@@ -1,0 +1,12 @@
+{
+    "type": "service_account",
+    "project_id": "mystic-rigging-264705",
+    "private_key_id": "210d8d9188d5ecc09d33149837cd6661a40d63fb",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQD2pgBuPZh+wkqP\nz9Sl2hP25yszDCGKCXi843OYX3F/5JLQ0YrQ/G5qiQ/D7YkW8kKCMI50U5ewMriW\naz6CHDyR3YHkgt6bnJNhhC/cUtZqrWeXeCQfhPYpuQcvC4y/xlE7MZ0U1OFWPIju\nbT2/2Z9KE0iKWGq5ritFT2EKw2hYFUFPsZNXpOnf/aUjZKPLVMTZoOxTY1xEEiRg\n7c+YPsR+zK6QfCnALdWQF5dWjhtpV8KteXxV/DajGT47MDxt8lYmIFxqY09i3EZt\npmfbhS+vVXeSQmgYx7paZ1C9Azyjb/2TgSklF3d5xjLsgG09iBBvF8NUJAe/yH3x\n2oBD5AJxAgMBAAECggEACeIyCeOG/QFdH9vUqhwN3mrPWi7Qwz7I60zJVjWbjzlC\nFthmvHl5FToj0GvwKTlmUorj585tDtRMKEmTiimGgH6EqiWtCkWhHvBp7eVrOSrK\nCBGk5OxyOXl0IRL7Pg4SNZHcjmKkxaIMXKgyUsHuNkzahHdcOM+SuqbJJ+IXstEn\nFkEJ856HIJC8VMW/Z/WqtwtBomN1BALxIPwN8oc/5blvTFOqoM3/qTxX7bnoTroI\nVdmNKaHHSAKvMn4hb0RcQvge3KckZku12edGlop416wHmhOH6MA/W16ywQ9CmIak\nkGMcq9qknq3WHMyLgP7vs6a7FTcmxZxuIjYxDZ16SQKBgQD/EuF9RRGoD6JF6shi\n6RQMc/AUnOdiZESrI89M2S21+HdhRhGPSrWuOo88YU9DGMmT8o0pHHyDvZRa41nv\nGIAVc+PihVQMs9o8vH6nuiNTfVg88Ad/GKuZ/OBFfI7+Mxa74ltvhC5zoAaQ4eoI\nXU1iTJVdGivf/tnYc5tDu7dt1QKBgQD3i0niYFFijumCMxhUJgLJc7bq83teN5qs\nLfFuwTl4OoaoR4tP/JCf5QYCBDmHbN9xVkkb60bHVtwYupoEeiKbvk2E6ngpHgcL\nNUcXYIcLR9IuUxhzxNe7vN/SAW56Nxq2z9YouiSs9s1RGmV+irIn4R9vDb02nC25\nl8FUsYTkLQKBgQCu2MZxFHNx/KWDv9j01EjF8INV3ehObeUUW0uypfzLjDJpH5rR\n2qiHceTVwu6OU+N54v4YfEpuE/oqA0aWuvixu+suT665tl+W2q8HUnT8uiNOQksh\nOEwJFmq1txhd769Zw2RiIP2mjL9zeSjv6uUsyMpqM5J3zT6PPU/lMjwesQKBgDSB\noflXbsvV/me0iMuIiHzMg5cQcDGK3873q8dPSu5ak6dsDXu42cBgpsaUuNMl37s9\njyJR5GBx5xuDsRmUAnVAh1bTGQu3p8zTzzGBMwPMhyN2UrBzp0LWDC+SSCm6OHtg\nWE+pNBBQBTrXu4F8z88vrCg1JNZJiFVegA6D3Ok9AoGADXroIReTOcfEPvAz04FQ\nptnJR1GTKGC54C2K3xOJdqov7Eg6Fste52qX5MD3T2KJWdNlytQ1VoGbQHm8CxEq\nl/sGja8IeseneNk2KDxktGvggPXmjHBlr5Nohy9TlVUqukffNZsvRb6mwY6Fze76\nnJg7M8g0G1cjh7Jq6LsUF/M=\n-----END PRIVATE KEY-----\n",
+    "client_email": "googlefit@mystic-rigging-264705.iam.gserviceaccount.com",
+    "client_id": "117712075517777981030",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/googlefit%40mystic-rigging-264705.iam.gserviceaccount.com"
+}
