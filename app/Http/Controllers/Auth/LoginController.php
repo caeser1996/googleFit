@@ -71,16 +71,12 @@ class LoginController extends Controller
             $dataSets = $fitness_service->users_dataSources_datasets;
 
             $listDataSources = $dataSources->listUsersDataSources("me");
-            dump('list data sources',$listDataSources);
             $timezone = "GMT+0530";
             $today = date("Y-m-d");
-            $endTime = strtotime(date("Y-m-d", strtotime("-6 day")));
-            $startTime = strtotime(date("Y-m-d", strtotime("-12 day")));
-            dump('sendTime:',$endTime);
-            dump('startTime:',$startTime);
+            $startTime = strtotime("today");
+            $endTime   = strtotime("now");
             while($listDataSources->valid()) {
                 $dataSourceItem = $listDataSources->next();
-                dump($dataSourceItem);
                 if ($dataSourceItem['dataType']['name'] == "com.google.step_count.delta") {
                     $dataStreamId = $dataSourceItem['dataStreamId'];
                     $listDatasets = $dataSets->get("me", $dataStreamId, $startTime.'000000000'.'-'.$endTime.'000000000');
@@ -96,6 +92,22 @@ class LoginController extends Controller
                         }
                     }
                     print("STEP: ".$step_count."<br />");
+                }
+                else if ($dataSourceItem['dataType']['name'] == "com.google.calories.expended") {
+                    $dataStreamId = $dataSourceItem['dataStreamId'];
+                    $listDatasets = $dataSets->get("me", $dataStreamId, $startTime.'000000000'.'-'.$endTime.'000000000');
+                    $step_count1 = 0;
+                    while($listDatasets->valid()) {
+                        $dataSet = $listDatasets->next();
+                        $dataSetValues = $dataSet['value'];
+//
+                        if ($dataSetValues && is_array($dataSetValues)) {
+                            foreach($dataSetValues as $dataSetValue) {
+                                $step_count1 += $dataSetValue['fpVal'];
+                            }
+                        }
+                    }
+                    print("calories: ".round($step_count1)."<br />");
                 };
             }
             die();
